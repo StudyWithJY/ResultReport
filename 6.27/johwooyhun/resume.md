@@ -46,4 +46,4 @@
 1. Jeremiahn을 위한 네이티브 컴파일러
 2. 머신러닝을 이용한 컴파일 최적화 모듈
 3. 새로운 형태의 OS Kernel
-4. 그 커널과 DEW 프로젝트를 결합한 Distributed Operating System
+4. 그 커널과 DEW 프로젝트를 결합한 Unix-like Distributed Operating System
