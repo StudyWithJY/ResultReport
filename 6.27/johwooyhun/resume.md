@@ -21,7 +21,7 @@
 - Virtual Machine  
 > Personal Database와 문서를 동적으로 운영할 가상 머신.  
 - Jeremiahn  
->가상 머신 위에서 작동할 단순한 형태의 절차적 프로그래밍 언어.  
+> 가상 머신 위에서 작동할 단순한 형태의 절차적 프로그래밍 언어.  
 - Decentralized Encrypted World  
 > UDP를 기반으로 Reliable과 Best-Effort를 API레벨에서 설정하여 사용할 수 있는 Transport layer protocol과 메시형 네트워크.
 - Markdown Markup Model  
