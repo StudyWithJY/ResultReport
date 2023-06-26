@@ -13,7 +13,7 @@
 
 ## DEW 프로젝트
 ### [Decentralized Encrypted World](https://codeberg.org/jeremiahjoh/)
-현재의 World Wide Web은 사용자의 자유를 더 이상 존중하지 못한다. 사용자를 단순히 웹페이지의 소비자로만 취급하고 있으며, 그들의 개인정보를 광범위하게 수집하는 것에 비해 그 개인정보마저도 매우 무책임하게 다룬다.  
+현재의 World Wide Web은 사용자의 자유를 더 이상 존중하지 않는다. 사용자를 단순히 웹페이지의 소비자로만 취급하고 있으며, 그들의 개인정보를 광범위하게 수집하는 것에 비해 그마저도 매우 무책임하게 다룬다.  
 이 프로젝트는 웹 사용자의 개인정보를 보호하면서 사용자를 웹사이트의 생산자로 끌어들이는 것을 목적으로 하고 있다.  
 #### 이 프로젝트를 이루는 주요 컴포넌트들.  
 - Personal Database  
@@ -23,7 +23,7 @@
 - Jeremiahn  
 > 가상 머신 위에서 작동할 단순한 형태의 절차적 프로그래밍 언어.  
 - Decentralized Encrypted World  
-> UDP를 기반으로 Reliable과 Best-Effort를 API레벨에서 설정하여 사용할 수 있는 Transport layer protocol과 메시형 네트워크.
+> UDP를 기반으로 Reliable과 Best-Effort를 API레벨에서 설정하여 사용할 수 있는 암호화된 Transport layer protocol과 메시형 네트워크.
 - Markdown Markup Model  
 > Markdown을 기반으로 만든 동적 문서.  
 - III Interactive Image  
@@ -31,6 +31,8 @@
   
 #### 컴포넌트 구조
 ```
++---------------------------------------------------+
+|             Display, Control Module               |
 +---------------------------+-----------------------+
 |   Markdown Markup Model  or  III Interacive Image |
 +---------------------------------------------------+
@@ -41,4 +43,7 @@
 ```
 
 ## 앞으로의 프로젝트
-- 새로운 형태의 OS Kernel
+1. Jeremiahn을 위한 네이티브 컴파일러
+2. 머신러닝을 이용한 컴파일 최적화 모듈
+3. 새로운 형태의 OS Kernel
+4. 그 커널과 DEW 프로젝트를 결합한 Distributed Operating System
